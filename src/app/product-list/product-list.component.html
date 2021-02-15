@@ -9,6 +9,7 @@
   <app-product-alerts
     [product]="product"
     (notify)="onNotify()"
+    [routerLink]="['/products', product.id]"
   ></app-product-alerts>
 </div>
 
